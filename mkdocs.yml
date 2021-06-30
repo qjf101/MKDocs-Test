@@ -1,2 +1,12 @@
 site_name: My Docs
-site_url: https://example.com/
+site_url: https://mkdocs-testqjf101.readthedocs.io/
+
+theme:
+  name: cyborg
+  
+nav:
+  - Welcome:
+    - Overview: index.md
+  - Docs:
+    - ApiDoc1: doc1.md
+    - ApiDoc2: doc2.md
