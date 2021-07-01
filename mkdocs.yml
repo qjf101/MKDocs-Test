@@ -2,7 +2,12 @@ site_name: My Docs
 site_url: https://mkdocs-testqjf101.readthedocs.io/
 
 theme:
-  name: cyborg
+  name: mkdocs
+  highlightjs: true
+  hljs_style: gradient-dark
+
+
+extra_css: [extra.css]
   
 nav:
   - Welcome:
